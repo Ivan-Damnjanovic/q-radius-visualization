@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "q-radius-visualization"
+version = "0.1.0"
+description = "This is a small Python project aimed towards approximating the q-numerical range and q-numerical radius of complex square matrices of small order."
+authors = ["Ivan Damnjanović"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scipy = "^1.13.0"
+
+
+[tool.poetry.group.test.dependencies]
+matplotlib = "^3.8.4"
+black = "^24.4.0"
+isort = "^5.13.2"
+pycln = "^2.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
