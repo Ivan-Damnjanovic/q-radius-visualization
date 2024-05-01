@@ -28,7 +28,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": [0.73],
-        "iterations": 100000,
+        "iterations": 1000000,
     },
     {
         "matrix": np.array(
@@ -39,7 +39,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": [0.0, 0.2 + 0.43j, 1.0, -1.0, 1j],
-        "iterations": 100000,
+        "iterations": 1000000,
     },
     {
         "matrix": np.array(
@@ -49,7 +49,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": [0.0, 0.2 + 0.43j, 1.0, -1.0, -1j],
-        "iterations": 100000,
+        "iterations": 1000000,
     },
     {
         "matrix": np.array(
@@ -61,7 +61,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": [0.0, 0.42 - 0.11j, 1j],
-        "iterations": 100000,
+        "iterations": 1000000,
     },
     {
         "matrix": np.array(
@@ -72,7 +72,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": (np.arange(11) / 10.0).tolist(),
-        "iterations": 100000,
+        "iterations": 1000000,
     },
     {
         "matrix": np.array(
@@ -83,7 +83,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": (np.arange(11) / 10.0).tolist(),
-        "iterations": 100000,
+        "iterations": 1000000,
     },
     {
         "matrix": np.array(
@@ -94,6 +94,6 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": (np.arange(11) / 10.0).tolist(),
-        "iterations": 100000,
+        "iterations": 1000000,
     },
 ]
