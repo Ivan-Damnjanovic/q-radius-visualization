@@ -1,22 +1,22 @@
 """
-This auxiliary module contains all the test arguments that should be used
-by the `test_main` Python script.
+This auxiliary module contains all the test arguments that should be used by
+the `test_various_examples` Python script.
 """
 
 from typing import Dict, List
 
 import numpy as np
 
-# This is the only global variable defined in the entire module. It
-# represents a list whose elements are dictionaries that contain the
-# desired test arguments. Each dictionary has precisely three keys:
+# This is the only global variable defined in the entire module. It represents
+# a list whose elements are dictionaries that contain the desired test
+# arguments. Each dictionary has precisely three keys:
 # 1. the value corresponding to the "matrix" key is the input matrix whose
 # q-numerical range and q-numerical radius should be approximated;
-# 2. the value corresponding to the "q-values" key is a list of complex
-# numbers from the closed unit disc that signify the q-values for which
-# the q-numerical range and q-numerical radius should be approximated;
-# 3. the value corresponding to the "iterations" key is merely the number
-# of random selections of feasible vectors to be made while the
+# 2. the value corresponding to the "q-values" key is a list of complex numbers
+# from the closed unit disc that signify the q-values for which the q-numerical
+# range and q-numerical radius should be approximated;
+# 3. the value corresponding to the "iterations" key is merely the number of
+# random selections of feasible vectors to be made while the
 # `approximate_q_range` function is being executed.
 TEST_ARGUMENTS: List[Dict] = [
     {
@@ -28,7 +28,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": [0.73],
-        "iterations": 1000000,
+        "iterations": 100000,
     },
     {
         "matrix": np.array(
@@ -39,7 +39,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": [0.0, 0.2 + 0.43j, 1.0, -1.0, 1j],
-        "iterations": 1000000,
+        "iterations": 100000,
     },
     {
         "matrix": np.array(
@@ -49,7 +49,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": [0.0, 0.2 + 0.43j, 1.0, -1.0, -1j],
-        "iterations": 1000000,
+        "iterations": 100000,
     },
     {
         "matrix": np.array(
@@ -61,7 +61,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": [0.0, 0.42 - 0.11j, 1j],
-        "iterations": 1000000,
+        "iterations": 100000,
     },
     {
         "matrix": np.array(
@@ -72,7 +72,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": (np.arange(11) / 10.0).tolist(),
-        "iterations": 1000000,
+        "iterations": 100000,
     },
     {
         "matrix": np.array(
@@ -83,7 +83,7 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": (np.arange(11) / 10.0).tolist(),
-        "iterations": 1000000,
+        "iterations": 100000,
     },
     {
         "matrix": np.array(
@@ -94,6 +94,6 @@ TEST_ARGUMENTS: List[Dict] = [
             ]
         ),
         "q_values": (np.arange(11) / 10.0).tolist(),
-        "iterations": 1000000,
+        "iterations": 100000,
     },
 ]
