@@ -2,7 +2,7 @@
 name = "q-radius-visualization"
 version = "0.1.0"
 description = "This is a small Python project aimed towards approximating the q-numerical range and q-numerical radius of complex square matrices of small order."
-authors = ["Ivan Damnjanović"]
+authors = ["Ivan Damnjanović", "Hranislav Stanković"]
 license = "MIT License"
 readme = "README.md"
 
