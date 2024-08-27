@@ -410,7 +410,7 @@ if __name__ == "__main__":
                 [2, 3],
             ]
         ),
-        analytical_q_values=(0.4 + np.arange(601) / 1000.0).tolist(),
+        analytical_q_values=(0.4 + np.arange(61) / 100.0).tolist(),
         numerical_q_values=(0.4 + np.arange(61) / 100.0).tolist(),
         iterations=500000,
         output_folder=output_folder,
@@ -431,7 +431,7 @@ if __name__ == "__main__":
                 [2, 3],
             ]
         ),
-        analytical_q_values=(0.4 + np.arange(601) / 1000.0).tolist(),
+        analytical_q_values=(0.4 + np.arange(61) / 100.0).tolist(),
         numerical_q_values=(0.4 + np.arange(61) / 100.0).tolist(),
         iterations=500000,
         output_folder=output_folder,
