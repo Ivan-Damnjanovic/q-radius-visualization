@@ -4,4 +4,4 @@ This is a small Python project aimed towards approximating the q-numerical range
 
 If you are using the software in your research, please cite this paper:
 
-* H. Stanković, M. Krstić and I. Damnjanović, Some properties of the q-numerical radius, *Linear Multilinear Algebra*, https://doi.org/10.1080/03081087.2024.2438927.
+* H. Stanković, M. Krstić and I. Damnjanović, Some properties of the q-numerical radius, *Linear Multilinear Algebra* **73** (2025), 1736–1757, [https://doi.org/10.1080/03081087.2024.2438927](https://doi.org/10.1080/03081087.2024.2438927).
